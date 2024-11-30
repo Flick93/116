@@ -24,6 +24,7 @@
 
 html {
     background-color: var(--background-color);
+    font-size: 18px;
 }
 
 .center-row {
@@ -37,4 +38,31 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+h1 {
+    color: var(--secondary-color-600);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: var(--lobster-font);
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    letter-spacing: .06rem;
+}
+
+p {
+    color: var(--neutral-color);
+    font-size: 1.3rem;
+}
+
+.text-label {
+    color: var(--background-color);
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
 }
